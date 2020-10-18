@@ -93,7 +93,8 @@ h2 {
 }
 
 .content {
-    width: 80%;
+    margin: 2%;
+    width: 90%;
     padding: 1%;
     overflow: hidden;
 }
