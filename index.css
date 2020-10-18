@@ -83,7 +83,7 @@ body {
 
 .introduction {
     background-color: lightblue;
-    padding: 10%;
+    padding: 5%;
     max-width: 100%;
     background-image: linear-gradient(lightblue, lightgreen, lightseagreen);
 }
