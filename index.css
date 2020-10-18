@@ -141,10 +141,10 @@ p {
 }
 
 @media screen and (max-width: 400px) {
-    #edu {
+    #edu #exp {
         float: none;
-        margin-right: 0;
-        width: auto;
+        margin-right:0;
+        width:auto;
     }
 }
 
@@ -164,12 +164,12 @@ p {
 }
 
 #email {
-    width: 280px;
+    width: 300px;
     float: left;
 }
 
 #web {
-    width: 280px;
+    width: 300px;
     float: right;
 }
 
