@@ -99,14 +99,6 @@ h2 {
     overflow: hidden;
 }
 
-@media (max-width: 600px) {
-    .content{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column
-    }
-}
-
 .float {
     max-width: 100%;
     float: left;
