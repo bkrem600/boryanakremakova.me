@@ -16,7 +16,6 @@ body {
 
 .nav {
     background-color: aliceblue;
-    position: fixed;
     top: 0;
     width: 100%;
     overflow: hidden;
@@ -46,6 +45,7 @@ body {
 
 .nav a.active {
     background-color: lightgrey;
+    display: block;
 }
 
 .nav .icon {
