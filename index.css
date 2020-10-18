@@ -123,8 +123,8 @@ p {
 #edu {
     background-color: lightgreen;
     width: 300px;
-    padding: 30px;
-    margin: 20px;
+    padding: 2%;
+    margin: 1%;
     box-shadow: 5px 10px 18px lightseagreen;
     float: left;
     overflow: hidden;
@@ -133,8 +133,8 @@ p {
 #exp {
     background-color: lightgreen;
     width: 300px;
-    padding: 30px;
-    margin: 20px;
+    padding: 2%;
+    margin: 1%;
     box-shadow: 5px 10px 18px lightseagreen;
     float: right;
     overflow: hidden;
@@ -156,12 +156,12 @@ p {
 }
 
 #email {
-    width: 200px;
+    width: 280px;
     float: left;
 }
 
 #web {
-    width: 200px;
+    width: 280px;
     float: right;
 }
 
