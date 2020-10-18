@@ -140,11 +140,11 @@ p {
     overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
-    #edu #exp {
+@media screen and (max-width: 1000px) {
+    #edu {
         float: none;
-        margin-right:0;
-        width:auto;
+        margin-right: 0;
+        width: auto;
     }
 }
 
