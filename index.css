@@ -122,7 +122,7 @@ p {
 
 #edu {
     background-color: lightgreen;
-    width: 30%;
+    width: 300px;
     padding: 2%;
     margin: 1%;
     box-shadow: 5px 10px 18px lightseagreen;
@@ -132,12 +132,20 @@ p {
 
 #exp {
     background-color: lightgreen;
-    width: 30%;
+    width: 300px;
     padding: 2%;
     margin: 1%;
     box-shadow: 5px 10px 18px lightseagreen;
     float: right;
     overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+    #edu #exp {
+        float: none;
+        margin-right:0;
+        width:auto;
+    }
 }
 
 #cv {
