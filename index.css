@@ -194,6 +194,9 @@ p {
     #myBtn {
         display: none;
     }
+    #myBtn:hover {
+        display: none;
+    }
 }
 
 #myBtn:hover {
