@@ -147,6 +147,12 @@ p {
     overflow: hidden;
 }
 
+@media screen and (max-width: 600px) {
+    #edu #exp {
+        width: 100%;
+    }
+}
+
 #cv {
     display: block;
     margin-left: auto;
