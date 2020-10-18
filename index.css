@@ -147,14 +147,6 @@ p {
     overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
-    #edu #exp {
-        float: none;
-        margin-right:0;
-        width:auto;
-    }
-}
-
 #cv {
     display: block;
     margin-left: auto;
