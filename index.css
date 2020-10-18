@@ -99,7 +99,7 @@ h2 {
     overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .content{
         display: flex;
         flex-wrap: wrap;
