@@ -1,17 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- template of basic structure of an HTML5 file -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8" />
-  <title>Portfolio</title>
-  <style>
-
-
-
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boryana Kremakova</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-<p>Welcome to my portfolio.</p>
+<nav>
+    <div class="nav" id="myNav">
+        <a href="#home" class="active"><b>HOME</b></a>
+        <a href="#projects"><b>PROJECTS</b></a>
+        <a href="#about"><b>ABOUT</b></a>
+        <a href="#tech"><b>TECH</b></a>
+        <a href="#contact"><b>CONTACT</b></a>
+        <button class="dark" onclick="darkMode()"><b>TOGGLE DARK MODE</b></button>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</nav>
+<div class="introduction" id="home">
+    <h2>Hi, I'm Boryana Kremakova</h2>
+    <h2>3rd year Web & Mobile Development student</h2>
+    <p>I am an international mature student from Bulgaria. I am currently completing my undergraduate degree in Web
+        and Mobile Development at UWS. This will be my second Bachelor diploma after finishing one in hospitality in the
+        Netherlands. I am passionate about technology and eager to expand my knowledge.</p>
+    <a href="https://www.linkedin.com/in/boryana-kremakova-b4b71a88/" target="contact" class="contact"><img
+            src="Images/linkedIn.png"
+            alt="linkedIn"></a>
+    <a href="https://github.com/bkrem600" target="contact"><img src="Images/gitHub.png" alt="gitHub"
+                                                                class="contact"></a>
+</div>
+<h2 id="projects">PROJECTS</h2>
+<div class="content">
+    <a target="project" href="Images/website.png"><img src="Images/website.png" alt="website" class="float"></a>
+    <p>A solo first-year project of a website about Lord of the Rings trilogy created in WebStorm using HTML, CSS
+        and JavaScript. The project includes several webpages providing some information about the trilogy. The theme
+        was previously set as the film industry. The website is entirely themed on lord of the rings including the font
+        and colours. There are also a documentation page describing its accessibility, security and future development.
+        In addition, there is a page indicating which language was use on which page. More images and coding of the project
+        can be found <a
+                href="https://github.com/bkrem600/Lord-of-the-Rings-website" target="project"><b>here</b></a>.</p>
+</div>
+<hr/>
+<div class="content">
+    <a target="project" href="Images/python.png"><img src="Images/python.png" alt="python" class="float"></a>
+    <p>A joint first-year project of a inventory system written in Python programming language. The
+        program uses GUI and is created for an engineering company that manufactures aircraft components. When the
+        user accesses the inventory system, they can create a new batch with components, which is stored in a json file.
+        Additionally, the user can view created batches and components, choose a specific one after entering a
+        unique number, allocate manufactured stock, search the inventory by type or finish a component.More images and coding
+        of the project can be found <a
+                href="https://github.com/bkrem600/Inventory-system-python" target="project"><b>here</b></a>.</p>
+</div>
+<hr/>
+<div class="content">
+    <a target="project" href="Images/java.png"><img src="Images/java.png" alt="java" class="float"></a>
+    <p>This is a joint second-year project that implements a dynamic data structure to maintain details of current
+        projects for an IT company. It is divided into three steps. The first step uses a linked list to allow the user
+        to add, find, display and remove projects. The second step uses an array list to add, display and remove team
+        member from projects. The final third step combines the previous steps into a binary tree structure. Coding for
+        this project can be found <a href="https://github.com/bkrem600/Java-projects-structure"
+                                     target="project"><b>here</b></a>. Additional project, presenting a flight
+        information system: <a href="https://github.com/bkrem600/Flight-information-system"
+                               target="project"><b>here</b></a>.</p>
+</div>
+<hr/>
+<div class="content">
+    <a target="prject" href="Images/database.png"><img src="Images/database.png" alt="diagram" class="float"></a>
+    <p>This is a group second year project of a video streaming database. I gained knowledge about ER modeling,
+        relational schemas and data dictionaries. The database was designed in Microsoft SQL Management Studio. Elements
+        like tables and records were created both with the platform and via queries. I learned more about relationships
+        between entities, constraints and data types.</p>
+</div>
+<hr/>
+<div class="content">
+    <p>More projects coming soon...</p>
+</div>
+<hr/>
+<h2>About</h2>
+<div class="content" id="about">
+    <div id="edu">
+        <h3>Education</h3>
+        <ul>
+            <li>BSc (Hons) Web & Mobile Development (2018 - present) at University of the West of Scotland in Paisley,
+                Scotland
+            </li>
+            <li>Bachelor of Business Administration (2011 - 2016) at Saxion University of Applied Sciences in Deventer,
+                Netherlands
+            </li>
+        </ul>
+    </div>
+    <div id="exp">
+        <h3>Experience</h3>
+        <ul>
+            <li>Work Placement at Lenovo Technologies in Renfrew, Scotland</li>
+            <li>Housekeeping supervisor in Amsterdam, Netherlands</li>
+            <li>Accommodation consultant in Brussels, Belgium</li>
+            <li>Document processing specialist at TTEC in Bulgaria</li>
+        </ul>
+    </div>
+</div>
+<div class="content">
+    <a href="Boryana-Kremakova-CV-Place.docx" download><img src="Images/cv.png" alt="CV" id="cv"></a>
+</div>
+<hr/>
+<h2>Tech skills</h2>
+<div class="tech" id="tech">
+    <img src="Images/html.png" alt="html-css-js">
+    <img src="Images/py.png" alt="py">
+    <img src="Images/java-logo.png" alt="java-logo">
+    <img src="Images/sql.png" alt="sql">
+    <img src="Images/azure.png" alt="azure">
+    <img src="Images/dw.png" alt="dreamweaver">
+    <img src="Images/muse.png" alt="muse">
+    <img src="Images/cisco.png" alt="cisco">
+    <img src="Images/webstorm.png" alt="webstorm">
+    <img src="Images/pycharm.jpg" alt="pycharm">
+    <img src="Images/mic-sql.png" alt="mic-sql">
+    <img src="Images/android.png" alt="android-studio">
+    <img src="Images/uml.png" alt="star-uml">
+</div>
+<hr/>
+<h2>My contact details</h2>
+<div class="content" id="contact">
+    <div id="email">
+        <a href="https://www.linkedin.com/in/boryana-kremakova-b4b71a88/" target="contact" class="contact"><img
+                src="Images/linkedIn.png" alt="linkedIn"></a>
+        <a href="https://github.com/bkrem600" target="contact"><img src="Images/gitHub.png" alt="gitHub"
+                                                                    class="contact"></a>
+        <a href="mailto:b.kremakova@gmail.com" class="mail"><h3>b.kremakova@gmail.com</h3></a>
+    </div>
+    <div id="web">
+        <p id="copyright">&copy; Boryana Kremakova</p>
+        <p><a href="https://github.com/bkrem600/boryanakremakova.me" target="project"><b>Portfolio code</b></a></p>
+    </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myNav");
+        if (x.className === "nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav";
+        }
+    }
+
+    function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </body>
 </html>
-
