@@ -52,7 +52,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .nav a:not(:first-child) {
         display: none;
     }
@@ -97,7 +97,14 @@ h2 {
     width: 80%;
     padding: 1%;
     overflow: hidden;
+}
 
+@media (max-width: 600px) {
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column
+    }
 }
 
 .float {
@@ -140,7 +147,7 @@ p {
     overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     #edu #exp {
         float: none;
         margin-right:0;
