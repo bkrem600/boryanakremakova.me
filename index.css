@@ -127,6 +127,7 @@ p {
     margin: 20px;
     box-shadow: 5px 10px 18px lightseagreen;
     float: left;
+    overflow: hidden;
 }
 
 #exp {
@@ -136,6 +137,7 @@ p {
     margin: 20px;
     box-shadow: 5px 10px 18px lightseagreen;
     float: right;
+    overflow: hidden;
 }
 
 #cv {
