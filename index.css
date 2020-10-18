@@ -1,0 +1,189 @@
+html {
+    scroll-behavior: smooth
+}
+
+.dark-mode {
+    background-color: darkslategray;
+    color: black;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Courier, sans-serif;
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dark {
+    background-color: aliceblue;
+    font-family: Courier, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.nav a, .dark {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover, .dark a:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+.nav a.active {
+    background-color: lightgrey;
+}
+
+.nav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav a:not(:first-child) {
+        display: none;
+    }
+
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav.responsive {
+        position: relative;
+    }
+
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.introduction {
+    background-color: lightblue;
+    padding: 10%;
+    max-width: 100%;
+    background-image: linear-gradient(lightblue, lightgreen, lightseagreen);
+}
+
+h2 {
+    text-align: center
+}
+
+.content {
+    margin-left: 5%;
+    width: 80%;
+    padding: 1%;
+    overflow: hidden;
+
+}
+
+.float {
+    max-width: 100%;
+    float: left;
+    margin: 1%;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.float:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    margin: 1%;
+}
+
+#edu {
+    background-color: lightgreen;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 5px 10px 18px lightseagreen;
+    float: left;
+}
+
+#exp {
+    background-color: lightgreen;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 5px 10px 18px lightseagreen;
+    float: right;
+}
+
+#cv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tech {
+    margin-left: 5%;
+    width: 80%;
+    padding: 1%;
+    overflow: hidden;
+    word-spacing: 15px;
+}
+
+#email {
+    width: 300px;
+    float: left;
+}
+
+#web {
+    width: 300px;
+    float: right;
+}
+
+#copyright {
+    text-align: left
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 13px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: lightgreen;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: lightgrey;
+}
