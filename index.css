@@ -108,7 +108,7 @@ h2 {
 }
 
 @media (max-width: 600px) {
-    .content{
+    .content .other {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column
