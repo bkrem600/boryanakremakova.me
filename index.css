@@ -210,9 +210,6 @@ p {
     #myBtn {
         display: none !important;
     }
-    #myBtn:hover {
-        display: none;
-    }
 }
 
 #myBtn:hover {
