@@ -96,7 +96,23 @@ h2 {
     margin: 2%;
     width: 90%;
     padding: 1%;
+    box-shadow: 5px 10px 18px lightgrey;
     overflow: hidden;
+}
+
+.other {
+    margin: 2%;
+    width: 90%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column
+    }
 }
 
 .float {
