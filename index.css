@@ -95,15 +95,7 @@ h2 {
 .container {
     position: relative;
     margin: 2% auto;
-    max-width: 900px;
-    padding: 1%;
-    box-shadow: 5px 10px 18px lightgrey;
-    overflow: hidden;
-}
-
-.content {
-    margin: 2%;
-    width: 90%;
+    max-width: 60%;
     padding: 1%;
     box-shadow: 5px 10px 18px lightgrey;
     overflow: hidden;
