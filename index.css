@@ -120,7 +120,7 @@ h2 {
     overflow: hidden;
 }
 
-@media (max-width: 600px) and (min-width: 768px){
+@media (max-width: 600px) {
     .tech .content .wrapper .container img {
         display: flex;
         flex-wrap: wrap;
@@ -162,7 +162,7 @@ p {
     overflow: hidden;
 }
 
-@media (min-width: 768px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     #edu #exp {
         width: 100%;
     }
