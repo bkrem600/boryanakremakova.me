@@ -186,16 +186,13 @@ p {
 
 #email {
     width: 300px;
-    float: left;
+    float: right;
+    text-align: right;
 }
 
 #web {
     width: 300px;
     float: right;
-}
-
-#copyright {
-    text-align: left
 }
 
 #myBtn {
