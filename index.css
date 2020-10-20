@@ -116,12 +116,12 @@ h2 {
     box-sizing: border-box;
     position: relative;
     margin: 2% auto;
-    width: 80%;
+    max-width: 70%;
     padding: 1%;
     overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .tech .content .wrapper .container img {
         display: flex;
         flex-wrap: wrap;
