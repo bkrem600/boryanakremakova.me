@@ -121,7 +121,7 @@ h2 {
     overflow: hidden;
 }
 
-@media sreen (max-width: 600px){
+@media (max-width: 600px){
     .tech .content .wrapper .container img {
         display: flex;
         flex-wrap: wrap;
