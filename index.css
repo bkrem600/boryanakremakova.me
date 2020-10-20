@@ -112,18 +112,19 @@ h2 {
     padding: 1%;
 }
 
-.other {
+.wrapper {
+    box-sizing: border-box;
     margin: 2%;
     width: 90%;
     padding: 1%;
     overflow: hidden;
 }
 
-@media (max-width: 600px) {
-    .content .other .container img {
+@media (max-width: 600px) and (min-width: 768px){
+    .tech .content .wrapper .container img {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column
+        flex-direction: column;
     }
 }
 
@@ -161,7 +162,7 @@ p {
     overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
+@media (min-width: 768px) and (max-width: 600px) {
     #edu #exp {
         width: 100%;
     }
