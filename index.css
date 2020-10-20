@@ -178,23 +178,26 @@ p {
 .footer {
     background-color: aliceblue;
     box-sizing: border-box;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 
 .details {
     box-sizing: border-box;
-    float: left;
-    width: 50%;
+    flex: 50%;
 }
 
-.footer:after {
-    content: "";
-    display: table;
-    clear: both;
+@media screen and (max-width: 992px) {
+    .details {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+    }
 }
 
 #myBtn {
