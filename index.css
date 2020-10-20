@@ -115,7 +115,7 @@ h2 {
 .wrapper {
     position: relative;
     margin: 2% auto;
-    width: 70%;
+    max-width: 60%;
     padding: 1%;
     overflow: hidden;
 }
@@ -186,13 +186,13 @@ p {
 
 #email {
     width: 300px;
-    float: right;
-    text-align: right;
+    float: left;
 }
 
 #web {
     width: 300px;
     float: right;
+    text-align: right;
 }
 
 #myBtn {
