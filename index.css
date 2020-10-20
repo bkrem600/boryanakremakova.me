@@ -114,13 +114,13 @@ h2 {
 
 .wrapper {
     position: relative;
-    margin: 2% auto;
+    margin: 1% auto;
     max-width: 70%;
     padding: 1%;
     overflow: hidden;
 }
 
-@media only screen and (min-width: 768px){
+@media (max-width: 600px){
     .tech .content .wrapper .container img {
         display: flex;
         flex-wrap: wrap;
@@ -177,8 +177,8 @@ p {
 
 .tech {
     position: relative;
-    margin: 2% auto;
-    width: 70%;
+    margin: 1% auto;
+    max-width: 70%;
     padding: 1%;
     overflow: hidden;
     word-spacing: 20px;
@@ -189,10 +189,14 @@ p {
     float: left;
 }
 
+#copyright {
+    text-align: left;
+}
+
 #web {
     width: 300px;
     float: right;
-    text-align: right;
+    text-align: left;
 }
 
 #myBtn {
