@@ -121,7 +121,7 @@ h2 {
     overflow: hidden;
 }
 
-@media (max-width: 600px){
+@media sreen (max-width: 600px){
     .tech .content .wrapper .container img {
         display: flex;
         flex-wrap: wrap;
@@ -165,7 +165,7 @@ p {
     position: relative;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     #edu #exp {
         width: 100%;
     }
