@@ -114,15 +114,11 @@ h2 {
 
 .wrapper {
     box-sizing: border-box;
-    position: relative;
-    margin: 2% auto;
-    max-width: 70%;
-    padding: 1%;
-    overflow: hidden;
+    margin: 10%;
 }
 
 @media (max-width: 600px){
-    .tech .content .wrapper .container img {
+    .tech .content .container img {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
