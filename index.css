@@ -129,7 +129,10 @@ h2 {
 }
 
 @media (min-width: 992px) {
-    .tech {margin: auto}
+    .tech {
+        margin: auto;
+        width: 100%;
+    }
 }
 
 .tech {
@@ -138,7 +141,7 @@ h2 {
     max-width: 70%;
     padding: 1%;
     overflow: hidden;
-    letter-spacing: 13px;
+    letter-spacing: 18px;
 }
 
 .container img {
