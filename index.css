@@ -175,19 +175,26 @@ p {
     word-spacing: 20px;
 }
 
-#email {
-    width: 300px;
+.footer {
+    background-color: aliceblue;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.details {
+    box-sizing: border-box;
     float: left;
+    width: 50%;
 }
 
-#copyright {
-    text-align: left;
-}
-
-#web {
-    width: 300px;
-    float: right;
-    text-align: left;
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #myBtn {
