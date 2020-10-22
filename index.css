@@ -150,6 +150,7 @@ h2 {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
+    cursor: zoom-in;
 }
 
 p {
@@ -205,7 +206,7 @@ p {
     from{-webkit-transform: rotateY(0deg);}
     to{-webkit-transform: rotateY(360deg);}
 }
-.tech img:hover {
+.tech img {
     animation-name: spin;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -214,6 +215,10 @@ p {
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 5s;
+}
+
+.tech img:hover {
+    animation: none;
 }
 
 .footer {
