@@ -168,11 +168,10 @@ p {
 
 .tech {
     position: relative;
-    margin: 1% auto;
-    max-width: 70%;
+    margin: 2% auto;
+    max-width: 60%;
     padding: 1%;
     overflow: hidden;
-    word-spacing: 20px;
 }
 
 .footer {
