@@ -101,7 +101,7 @@ h2 {
     overflow: hidden;
 }
 
-.container .content {
+.content {
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
