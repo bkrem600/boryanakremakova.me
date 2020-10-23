@@ -275,7 +275,7 @@ p {
 }
 
 body {
-    animation: slide-left 8s;
+    animation: slide-left 500ms;
 }
 
 @keyframes slide-left {
