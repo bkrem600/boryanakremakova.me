@@ -7,7 +7,6 @@ html {
 
 .dark-mode {
     background-color: darkslategray;
-    color: grey;
 }
 
 body {
@@ -120,9 +119,8 @@ h2 {
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: antiquewhite;
+    background: rgba(0,255,0,0.3); /* Black background with 0.5 opacity */
+    color: black;
     width: 100%;
     padding: 1%;
 }
@@ -194,6 +192,7 @@ p {
     overflow: hidden;
 }
 
+
 @keyframes spin {
     from{
         transform: rotateY(0deg);
@@ -202,19 +201,12 @@ p {
         transform: rotateY(360deg);
     }
 }
-@-webkit-keyframes spin{
-    from{-webkit-transform: rotateY(0deg);}
-    to{-webkit-transform: rotateY(360deg);}
-}
+
 .tech img {
     animation-name: spin;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    -webkit-animation-name: spin;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
 }
 
 .tech img:hover {
