@@ -119,7 +119,7 @@ h2 {
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
-    background: rgba(0,255,0,0.3); /* Black background with 0.5 opacity */
+    background: rgba(0,105,0,0.3);
     color: black;
     width: 100%;
     padding: 1%;
