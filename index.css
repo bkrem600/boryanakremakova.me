@@ -122,7 +122,7 @@ h2, h4 {
 
 .flip {
     background-image: linear-gradient(lightblue, lightgreen, lightseagreen);
-    height: 350px;
+    height: 300px;
     transform-style: preserve-3d;
     transition: transform 0.4s ease 0s;
     width: 100%;
