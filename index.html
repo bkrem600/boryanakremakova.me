@@ -6,76 +6,86 @@
     <title>Boryana Kremakova</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="../../../../Users/Bo/Desktop/scroll-triggered-animations/backend/scripts.js"></script>
 </head>
 <body>
-<nav>
-    <div class="nav" id="myNav">
-        <a href="#home" class="active"><b>HOME</b></a>
-        <a href="#projects"><b>PROJECTS</b></a>
-        <a href="#about"><b>ABOUT</b></a>
-        <a href="#tech"><b>TECH</b></a>
-        <a href="#contact"><b>CONTACT</b></a>
-        <button class="dark" onclick="darkMode()"><b>TOGGLE DARK MODE</b></button>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+<nav id="myNav">
+    <a href="#home" class="active"><b>HOME</b></a>
+    <a href="#project"><b>PROJECTS</b></a>
+    <a href="#about"><b>ABOUT</b></a>
+    <a href="#tech"><b>TECH</b></a>
+    <a href="#contact"><b>CONTACT</b></a>
+    <a href="https://blog.boryanakremakova.me/" target="_blank"><b>BLOG</b></a>
+    <button class="dark" onclick="darkMode()"><b>TOGGLE DARK MODE</b></button>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
 </nav>
-<div class="introduction" id="home">
+<header id="home">
     <h2>Hi, I'm Boryana Kremakova</h2>
-    <h2>3rd year Web & Mobile Development student</h2>
-    <p>I am an international mature student from Bulgaria. I am currently completing my undergraduate degree in Web
-        and Mobile Development at University of the West of Scotland. I am excited about summer internship opportunities to
-        expand my knowledge of the industry and gain some experience. I have worked with different technologies
-    such as HTML & CSS, JavaScript, T-SQL, Cisco, Java, Python and others. I am currently learning Bootstrap in my spare time.</p>
-    <a href="https://www.linkedin.com/in/boryana-kremakova-b4b71a88/" target="contact" class="contact"><img
+    <h4>3rd year Web & Mobile Development student, creating digital experiences with HTML, CSS, Python, Java and
+        SQL.</h4>
+    <h4><a href="https://www.linkedin.com/in/boryana-kremakova-b4b71a88/" target="contact" class="contact"><img
             src="Images/linkedIn.png"
             alt="linkedIn"></a>
-    <a href="https://github.com/bkrem600" target="contact"><img src="Images/gitHub.png" alt="gitHub"
-                                                                class="contact"></a>
-</div>
-<h2 id="projects">PROJECTS</h2>
-<div class="container" >
-    <img src="Images/website.png" alt="website" class="float">
-    <div class="content">
-        <p><b>Website created in WebStorm using HTML, CSS and JavaScript.
-            <a href="https://github.com/bkrem600/Lord-of-the-Rings-website" target="project">Code</a>
-            <a href="https://lotrtrilogy.netlify.app" target="project">Demo</a></b></p>
-</div>
-</div>
-<hr/>
-<div class="container">
-    <img src="Images/python.png" alt="python">
-    <div class="content">
-        <p><b>An inventory system written in Python programming language. View more
-            <a href="https://github.com/bkrem600/Inventory-system-python" target="project">here</a></b></p>
-    </div>
-</div>
-<hr/>
-<div class="container">
-    <img src="Images/java.png" alt="java">
-    <div class="content">
-        <p><b>Maintains details of current projects for an IT company. Full code
-            <a href="https://github.com/bkrem600/Java-projects-structure" target="project">here</a></b></p>
-    </div>
-</div>
-<hr/>
-<div class="container">
-    <img src="Images/database.png" alt="diagram" class="float">
-    <div class="content">
-    <p><b>A video streaming database designed in Microsoft SQL Management Studio. A great learning experience that
-        awakened by interest towards database design.</b></p>
-</div>
-</div>
-<hr/>
-<div class="container">
-    <p>More projects coming soon...</p>
-</div>
-<hr/>
-<h2>About</h2>
-<div class="wrapper" id="about">
-    <div class="edu">
+        <a href="https://github.com/bkrem600" target="contact"><img src="Images/gitHub.png" alt="gitHub"
+                                                                    class="contact"></a></h4>
+</header>
+<h2 id="project">PROJECTS</h2>
+<section class="container">
+
+    <section class="flipper">
+        <section class="flip">
+            <section class="front">
+                <img src="Images/website.png" alt="website">
+                <strong>&#x21bb;</strong>
+            </section>
+            <section class="back">
+                <p><b>Website created in WebStorm using HTML, CSS and JavaScript.
+                    <a href="https://github.com/bkrem600/Lord-of-the-Rings-website" target="project">Code</a>
+                    <a href="https://lotrtrilogy.netlify.app" target="project">Demo</a></b></p>
+            </section>
+        </section>
+    </section>
+    <section class="flipper">
+        <section class="flip">
+            <section class="front">
+
+            </section>
+            <section class="back">
+                <p><b>An inventory system written in Python programming language. View more
+                    <a href="https://github.com/bkrem600/Inventory-system-python" target="project">here</a></b></p>
+            </section>
+        </section>
+    </section>
+    <section class="flipper">
+        <section class="flip">
+            <section class="front">
+
+            </section>
+            <section class="back">
+                <p><b>A video streaming database designed in Microsoft SQL Management Studio. A great learning
+                    experience that
+                    awakened by interest towards database design.</b></p>
+            </section>
+        </section>
+    </section>
+    <section class="flipper">
+        <section class="flip">
+            <section class="front">
+
+            </section>
+            <section class="back">
+                <p><b>Maintains details of current projects for an IT company. Full code
+                    <a href="https://github.com/bkrem600/Java-projects-structure" target="project">here</a></b></p>
+            </section>
+        </section>
+    </section>
+
+</section>
+
+<section class="about" id="about">
+
+    <section class="edu">
         <h3>Education</h3>
         <ul>
             <li>BSc (Hons) Web & Mobile Development (2018 - present) at University of the West of Scotland in Paisley,
@@ -86,24 +96,24 @@
             </li>
             <li>Web Design with HTML & CSS and CCNA1 certifications</li>
         </ul>
-    </div>
-    <div class="edu">
+    </section>
+    <section class="edu">
         <h3>Experience</h3>
         <ul>
             <li>Work Placement at Lenovo Technologies in Renfrew, Scotland</li>
-            <li>Housekeeping supervisor in Amsterdam, Netherlands</li>
+            <li>Company website created using Adobe Muse</li>
             <li>Accommodation consultant in Brussels, Belgium</li>
             <li>Document processing specialist at TTEC in Bulgaria</li>
-            <li>Company website created using Adobe Muse</li>
+            <li>Housekeeping supervisor in Amsterdam, Netherlands</li>
         </ul>
-    </div>
-</div>
-<div class="wrapper">
+    </section>
+</section>
+<section class="about">
     <a href="Boryana-Kremakova-CV.pdf" download><img src="Images/cv.png" alt="CV" id="cv"></a>
-</div>
+</section>
 <hr/>
-<h2>Tech skills</h2>
-<div class="tech" id="tech">
+<h2>TECH SKILLS</h2>
+<section class="tech" id="tech">
     <img src="Images/html.png" alt="html-css-js">
     <img src="Images/py.png" alt="py">
     <img src="Images/java-logo.png" alt="java-logo">
@@ -115,24 +125,24 @@
     <img src="Images/webstorm.png" alt="webstorm">
     <img src="Images/mic-sql.png" alt="mic-sql">
     <img src="Images/android.png" alt="android-studio">
-</div>
+</section>
 <hr/>
-<h2>Contact me</h2>
-<div class="footer" id="contact">
-    <div class="details">
+<footer id="contact">
+    <h2>CONTACT ME</h2>
+    <details>
         <a href="https://www.linkedin.com/in/boryana-kremakova-b4b71a88/" target="contact"><img
                 src="Images/linkedIn.png" alt="linkedIn"></a>
         <a href="https://github.com/bkrem600" target="contact"><img src="Images/gitHub.png" alt="gitHub"></a>
-    <br/>
+        <br/>
         <a href="mailto:b.kremakova@gmail.com"><h3>b.kremakova@gmail.com</h3></a>
-    </div>
-    <div class="details">
+    </details>
+    <details>
         <p>&copy; Boryana Kremakova</p>
         <br/>
         <p><a href="https://github.com/bkrem600/boryanakremakova.me" target="project"><b>Portfolio code</b></a></p>
-    </div>
-</div>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </details>
+</footer>
+<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
 
 <script>
     function myFunction() {
@@ -149,7 +159,7 @@
         element.classList.toggle("dark-mode");
     }
 
-    const mybutton = document.getElementById("myBtn");
+    const mybutton = document.getElementById("topBtn");
 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () {
