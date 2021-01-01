@@ -13,7 +13,7 @@ body {
     animation: slide-left 500ms;
     padding: 0;
     margin: 0;
-    background-color: lightcyan;
+    background-color: lightskyblue;
     font-family: Courier, sans-serif;
     display: block;
     transition: all 0.3s ease;
@@ -97,8 +97,12 @@ header {
 }
 
 @keyframes header {
-    from {background-image: linear-gradient(lightblue, lightgreen, lightseagreen);}
-    to {background-image: linear-gradient(lightsteelblue, lightcyan, lightgoldenrodyellow);}
+    from {
+        background-image: linear-gradient(lightblue, lightgreen, lightseagreen);
+    }
+    to {
+        background-image: linear-gradient(lightsteelblue, lightcyan, lightgoldenrodyellow);
+    }
 
 }
 
@@ -157,12 +161,12 @@ h2, h4 {
 }
 
 .flip .back {
-    transform: rotateY( 180deg);
+    transform: rotateY(180deg);
 }
 
 .flipper img {
-    max-width:100%;
-    max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .flip .back a {
@@ -203,19 +207,19 @@ h2, h4 {
 
 @-webkit-keyframes giro {
     from {
-        transform: rotateY( 180deg);
+        transform: rotateY(180deg);
     }
     to {
-        transform: rotateY( 0deg);
+        transform: rotateY(0deg);
     }
 }
 
 @keyframes giro {
     from {
-        transform: rotateY( 180deg);
+        transform: rotateY(180deg);
     }
     to {
-        transform: rotateY( 0deg);
+        transform: rotateY(0deg);
     }
 }
 
@@ -225,9 +229,11 @@ h2, h4 {
         margin-top: 3%;
         width: 46%;
     }
+
     .flip {
         height: 285px;
     }
+
     .flipper:last-child {
         margin-bottom: 3%;
     }
@@ -237,8 +243,15 @@ h2, h4 {
     .flipper {
         width: 94.5%;
     }
+
     .flip {
         height: 260px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .flipper {
+        margin-bottom: 2%;
     }
 }
 
@@ -247,7 +260,7 @@ h2, h4 {
     margin: 8%;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
     .tech .flipper .container img {
         display: flex;
         flex-wrap: wrap;
@@ -303,10 +316,10 @@ p {
 
 
 @keyframes spin {
-    from{
+    from {
         transform: rotateY(0deg);
     }
-    to{
+    to {
         transform: rotateY(360deg);
     }
 }
@@ -323,9 +336,7 @@ p {
 }
 
 footer {
-    background-color: aliceblue;
     box-sizing: border-box;
-
 }
 
 footer:after {
@@ -341,7 +352,14 @@ details {
     padding: 1%;
     text-align: center;
     text-decoration: none;
+}
 
+details[open] {
+    border: none;
+}
+
+*:focus {
+    outline: none;
 }
 
 @media screen and (max-width: 600px) {
