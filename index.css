@@ -5,11 +5,6 @@ html {
     margin: 0
 }
 
-.dark-mode {
-    background-color: #17131d;
-    text-color: white;
-}
-
 body {
     animation: slide-left 500ms;
     padding: 0;
@@ -29,24 +24,7 @@ nav {
     transition: 0.3s;
 }
 
-.dark {
-    background-color: aliceblue;
-    font-family: Courier, sans-serif;
-    border: none;
-    cursor: pointer;
-}
-
-nav a, .dark {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px 12px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-nav a:hover, .dark a:hover {
+nav a:hover {
     background-color: lightgrey;
     color: white;
 }
