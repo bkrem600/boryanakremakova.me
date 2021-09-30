@@ -6,14 +6,15 @@ html {
 }
 
 .dark-mode {
-    background-color: darkslategray;
+    background-color: #17131d;
+    text-color: white;
 }
 
 body {
     animation: slide-left 500ms;
     padding: 0;
     margin: 0;
-    background-color: lightskyblue;
+    background-color: #7b639c;
     font-family: Courier, sans-serif;
     display: block;
     transition: all 0.3s ease;
