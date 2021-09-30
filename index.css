@@ -50,6 +50,10 @@ nav a:hover, .dark a:hover {
     color: white;
 }
 
+a, .nav {
+    color: black;
+}
+
 nav a.active {
     background-color: lightgrey;
     display: block;
