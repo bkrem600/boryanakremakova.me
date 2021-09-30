@@ -29,6 +29,16 @@ nav a:hover {
     color: black;
 }
 
+nav a, {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 a, .nav {
     color: black;
 }
