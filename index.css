@@ -96,17 +96,17 @@ header {
     background-color: lightblue;
     padding: 5%;
     max-width: 100%;
-    background-image: linear-gradient(lightblue, lightgreen, lightseagreen);
+    background-image: linear-gradient(#75858A, #757A8A, #758A85);
     animation-name: header;
     animation-duration: 10s;
 }
 
 @keyframes header {
     from {
-        background-image: linear-gradient(lightblue, lightgreen, lightseagreen);
+        background-image: linear-gradient(#75858A, #757A8A, #758A85);
     }
     to {
-        background-image: linear-gradient(lightsteelblue, lightcyan, lightgoldenrodyellow);
+        background-image: linear-gradient(#9B6467, #9B7C64, #9B6483);
     }
 
 }
