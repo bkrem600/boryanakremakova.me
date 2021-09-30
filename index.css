@@ -9,7 +9,7 @@ body {
     animation: slide-left 500ms;
     padding: 0;
     margin: 0;
-    background-color: #7b639c;
+    background-color: background-image: linear-gradient(#B84D47, #B88547, #B8477A);
     font-family: Courier, sans-serif;
     display: block;
     transition: all 0.3s ease;
