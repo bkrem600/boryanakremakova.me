@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-    background-color: aliceblue;
+    background-color: mintcream;
     top: 0;
     width: 100%;
     overflow: hidden;
@@ -34,8 +34,7 @@ nav {
     cursor: pointer;
 }
 
-nav a:hover, .dark a:hover {
-    background-color: lightgrey;
+a {
     color: black;
 }
 
@@ -49,7 +48,8 @@ nav a, .dark {
     font-size: 17px;
 }
 
-a {
+nav a:hover, .dark a:hover {
+    background-color: lightgrey;
     color: black;
 }
 
@@ -92,20 +92,19 @@ nav .icon {
 }
 
 header {
-    background-color: lightblue;
     padding: 5%;
     max-width: 100%;
-    background-image: linear-gradient(#75858A, #757A8A, #758A85);
+    background-image: linear-gradient(#5BA55A, #5AA57F, #80A55A);
     animation-name: header;
     animation-duration: 10s;
 }
 
 @keyframes header {
     from {
-        background-image: linear-gradient(#75858A, #757A8A, #758A85);
+        background-image: linear-gradient(#5BA55A, #5AA57F, #80A55A);
     }
     to {
-        background-image: linear-gradient(#9B6467, #9B7C64, #9B6483);
+        background-image: linear-gradient(#89E793, #89E7C2, #AFE789);
     }
 
 }
@@ -121,7 +120,7 @@ h2, h4 {
     perspective: 800px;
     transition: all 0.3s ease 0s;
     width: 23.7%;
-    box-shadow: 5px 10px 18px lightgrey;
+    box-shadow: 5px 10px 18px;
 }
 
 .flipper:hover .flip {
@@ -129,7 +128,7 @@ h2, h4 {
 }
 
 .flip {
-    background-image: linear-gradient(lightblue, lightgreen, lightseagreen);
+    background-image: linear-gradient(#5BA55A, #5AA57F, #80A55A);
     height: 300px;
     transform-style: preserve-3d;
     transition: transform 0.4s ease 0s;
@@ -175,7 +174,7 @@ h2, h4 {
 
 .flip .back a {
     padding: 0.3em 0.5em;
-    background: lightgreen;
+    background: #5BA55A;
     color: black;
     text-decoration: none;
     border-radius: 1px;
@@ -184,13 +183,13 @@ h2, h4 {
 }
 
 .flip .back a:hover {
-    background: lightgrey;
+    background: grey;
     color: #333;
     text-shadow: 0 0 1px #333;
 }
 
 .flipper .flip .back {
-    background: linear-gradient(lightsteelblue, lightcyan, lightgoldenrodyellow);
+    background: linear-gradient(#89E793, #5FDF6C);
 }
 
 .flipper:nth-child(2) .flip {
@@ -280,9 +279,9 @@ p {
 
 .edu {
     box-sizing: border-box;
-    background-color: lightgreen;
+    background-image: linear-gradient(#5BA55A, #5AA57F, #80A55A);
     padding: 3%;
-    box-shadow: 5px 10px 18px lightseagreen;
+    box-shadow: 5px 10px 18px;
     float: left;
     width: 50%;
 }
@@ -373,7 +372,7 @@ footer:after {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: lightgreen;
+    background-image: linear-gradient(#5BA55A, #5AA57F, #80A55A);
     color: black;
     cursor: pointer;
     padding: 15px;
