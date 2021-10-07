@@ -14,6 +14,7 @@
     <a href="#about"><b>ABOUT</b></a>
     <a href="#tech"><b>TECH</b></a>
     <a href="#contact"><b>CONTACT</b></a>
+    <button class="dark" onclick="darkMode()"><b>TOGGLE DARK MODE</b></button>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
@@ -108,7 +109,7 @@
                     IT Management - Building Information Systems
                 </li>
                 <li>Web Design with HTML & CSS and CCNA1 certifications</li>
-                <br>
+                <li>Research and Development of Database Web App</li>
             </ul>
         </div>
         <div class="edu">
@@ -168,6 +169,11 @@
         } else {
             x.className = "nav";
         }
+    }
+    
+    function darkMode() {
+        const element = document.body;
+        element.classList.toggle("dark-mode");
     }
 
     const mybutton = document.getElementById("topBtn");
